@@ -1,0 +1,84 @@
+/* Global styles */
+body {
+  margin: 0 auto;
+  overflow: hidden;
+}
+.app-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.image-container img {
+  object-fit: cover;
+}
+
+.form-container,
+.result-container {
+  width: 60%;
+  text-align: left;
+}
+
+.choice-container {
+  text-align: center;
+}
+
+.choice-container button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #0078d4;
+  color: white;
+}
+
+.choice-container button:hover {
+  background-color: #005bb5;
+}
+
+.choice-container input {
+  padding: 8px;
+  margin: 10px 0;
+  width: 80%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}

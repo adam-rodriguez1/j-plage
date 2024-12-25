@@ -1,0 +1,12 @@
+form {
+  width: 100%;
+}
+label {
+  display: flex;
+  flex-direction: column;
+}
+select,
+input {
+  border-radius: 10px;
+  border: 1px solid grey;
+}
