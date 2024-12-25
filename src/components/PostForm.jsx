@@ -25,7 +25,7 @@ function PostForm({ onResponse }) {
 
         try {
             const response = await fetch(
-                `https://api.edamam.com/api/nutrition-details?app_id=62b09b45&app_key=53a771b35352b1f56bbaa258ac954c56`,
+                `https://api.edamam.com/api/nutrition-details?6`,
                 {
                     method: 'POST',
                     headers: {
