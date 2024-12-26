@@ -30,9 +30,9 @@ function App() {
     };
 
    let stepImages = [
-        'src/assets/image1.jpg',
-        'src/assets/image2.jpg',
-        willAchieveBeforeSummer ? 'src/assets/image3succes.jpg' : 'src/assets/image3echec.jpg',
+        '/src/assets/image1.jpg',
+        '/src/assets/image2.jpg',
+        willAchieveBeforeSummer ? '/src/assets/image3succes.jpg' : '/src/assets/image3echec.jpg',
     ];
 
     return (
