@@ -25,7 +25,7 @@ function PostForm({ onResponse }) {
 
         try {
             const response = await fetch(
-                `https://api.edamam.com/api/nutrition-details?6`,
+                `https://api.edamam.com/api/nutrition-details?app_id=${process.env.REACT_APP_APPLICATION_ID}&app_key=${process.env.REACT_APP_APPLICATION_KEY}`,
                 {
                     method: 'POST',
                     headers: {
